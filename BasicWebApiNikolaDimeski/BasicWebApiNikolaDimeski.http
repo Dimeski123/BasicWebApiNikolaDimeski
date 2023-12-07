@@ -1,0 +1,6 @@
+@BasicWebApiNikolaDimeski_HostAddress = http://localhost:5187
+
+GET {{BasicWebApiNikolaDimeski_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
