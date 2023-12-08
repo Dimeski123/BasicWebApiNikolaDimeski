@@ -2,17 +2,14 @@
 
 namespace BasicWebApiNikolaDimeski.Models
 {
-    public class Contact
+    public class ContactUpdated
     {
         [Required]
         public int ContactId { get; set; }
         [Required]
         public string ContactName { get; set; }
-        [Required]
-        public int CompanyId { get; set; }
-        [Required]
-        public int CountryId { get; set; }
 
+        public string CompanyName { get; set; }
+        public string CountryName { get; set; }
     }
 }
-

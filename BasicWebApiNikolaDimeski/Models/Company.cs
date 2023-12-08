@@ -8,8 +8,5 @@ namespace BasicWebApiNikolaDimeski.Models
         public int CompanyId { get; set; }
         [Required]
         public string CompanyName { get; set; }
-        public DateTime Created { get; set; }
-
-        public DateTime? Completed { get; set; }
     }
 }

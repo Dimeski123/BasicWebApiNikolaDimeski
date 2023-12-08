@@ -7,6 +7,6 @@ namespace BasicWebApiNikolaDimeski.Models
         [Required]
         public int CountryId { get; set; }
         [Required]
-        public int CompanyName { get; set; }
+        public string CountryName { get; set; }
     }
 }
